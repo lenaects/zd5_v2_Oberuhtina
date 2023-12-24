@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/movieMoviesFragment"
+    android:title="Фильмы"
+    android:icon="@drawable/icons1"/>
+    <item
+        android:id="@+id/movieTicketFragment"
+        android:title="Билеты"
+        android:icon="@drawable/icons2"/>
+    <item
+        android:id="@+id/movieUserFragment"
+        android:title="Клиенты"
+        android:icon="@drawable/icons3"/>
+</menu>

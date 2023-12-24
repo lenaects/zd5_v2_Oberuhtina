@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigate_mode"
+    app:startDestination="@id/fragmentUzerVhod">
+
+    <fragment
+        android:id="@+id/fragmentUzerVhod"
+        android:name="com.example.zd5_up_versia3.FragmentUzerVhod"
+        android:label="Клиент"
+        tools:layout="@layout/fragment_uzer_vhod" >
+        <action
+            android:id="@+id/action_fragmentUzerVhod_to_fragmentWorker"
+            app:destination="@id/fragmentWorker" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentWorker"
+        android:name="com.example.zd5_up_versia3.FragmentWorker"
+        android:label="Работник"
+        tools:layout="@layout/fragment_worker" >
+        <action
+            android:id="@+id/action_fragmentWorker_to_fragmentUzerVhod"
+            app:destination="@id/fragmentUzerVhod" />
+    </fragment>
+</navigation>

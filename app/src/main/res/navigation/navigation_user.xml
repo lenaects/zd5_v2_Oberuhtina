@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_user"
+    app:startDestination="@id/movieFragment">
+
+    <fragment
+        android:id="@+id/movieFragment"
+        android:name="com.example.zd5_up_versia3.GroupGenerFragment"
+        android:label="fragment_movie"
+        tools:layout="@layout/fragment_group_gener" />
+    <fragment
+        android:id="@+id/oldMovieFragment"
+        android:name="com.example.zd5_up_versia3.OldMovieFragment"
+        android:label="fragment_old_movie"
+        tools:layout="@layout/fragment_old_movie" />
+    <fragment
+        android:id="@+id/ticketUserFragment"
+        android:name="com.example.zd5_up_versia3.TicketUserFragment"
+        android:label="fragment_ticket_user"
+        tools:layout="@layout/fragment_ticket_user" />
+</navigation>

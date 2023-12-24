@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <array name="genre_array">
+        <item>Комедия</item>
+        <item>Ужасы</item>
+        <item>Триллер</item>
+        <item>Фентези</item>
+        <item>Комедия</item>
+        <item>Мультфильм</item>
+        <item>Документалка</item>
+        <item>Мелодрама</item>
+        <item>Боевик</item>
+    </array>
+
+    <array name="limitation_array">
+        <item>0+</item>
+        <item>6+</item>
+        <item>12+</item>
+        <item>16+</item>
+        <item>18+</item>
+    </array>
+</resources>

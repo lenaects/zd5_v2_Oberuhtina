@@ -1,0 +1,35 @@
+<resources>
+
+    <string name="app_name">Movie</string>
+    <string name="email">E-mail</string>
+    <string name="password">Пароль</string>
+    <string name="login">Логин</string>
+    <string name="email1">E-mail:</string>
+    <string name="password1">Пароль:</string>
+    <string name="login1">Логин:</string>
+    <string name="re_password">Повторите пароль</string>
+    <string name="sign_in">Войти</string>
+    <string name="register">Регистрация</string>
+    <string name="to_register">Зарегистрироваться</string>
+    <string name="i_have_account">У меня уже есть аккаунт</string>
+    <string name="user">Пользователи</string>
+    <string name="add">Добавить</string>
+    <string name="gener">Жанр:</string>
+    <string name="movie">Фильмы</string>
+    <string name="limitation">Возрастное ограничение:</string>
+    <string name="bron">Забронировать</string>
+    <string name="generscreen">Выберите жанр фильма</string>
+    <string name="ticket">Бронирование билетов</string>
+    <string name="loginus">Логин клиента:</string>
+    <string name="bronzakaz">Выбранный фильм:</string>
+    <string name="data">Дата сеанса:</string>
+    <string name="time">Время сеанса:</string>
+    <string name="tickets">Заабронированные билеты</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_prob">ProbActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_user">UserActivity</string>
+</resources>
